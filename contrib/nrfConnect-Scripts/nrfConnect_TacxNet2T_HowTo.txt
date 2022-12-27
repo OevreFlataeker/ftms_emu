@@ -1,0 +1,11 @@
+Advertise 0x180a (DIS), 0x1818, 0x1816 (CPS and CSCS) as complete 16 bit uuids
+Advertise the FEC-128 Bit UUID as complete 128 bit uuids in the Scan response advertisements
+
+There does not seem to be a way to declare manufacturer specific data in nRFConnect Desktop
+
+Manufacturer specific data can be set in addition!
+
+Type 0xff
+
+Payload: 0x0689 (Vendor Tacx), no other payload
+

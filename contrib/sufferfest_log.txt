@@ -1,0 +1,167 @@
+[00:00:06.646,118] <info> app: ble_ftms_ctrlpt::ble_ftms_ctrlpt_on_ble_evt::BLE_GAP_EVT_CONNECTED
+[00:00:06.646,667] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GAP_EVT_CONNECTED
+[00:00:06.647,155] <info> app: Peripheral connected
+[00:00:06.670,166] <info> ble_cps: cpm: 30 00 b2 00 4d 00 00 00 4a cf 58 00 b6 a0  (Incline 10, Watts: 178, Inst Cadence: 0.001307, Avg Cadence: 80, Avg speed: 50)
+[00:00:06.671,081] <info> ble_ftms: Total length: 14
+[00:00:06.671,386] <info> ble_ftms: ftms: ce 00 88 13 88 13 50 00 50 00 b2 00 b2 00  (Inst speed: 5000, Inst cadence: 0.000000, Avg Cadence: 80, Inst Power: 178, Avg: Power: 178)
+[00:00:06.672,424] <info> ble_cscs: cscm: 03 4d 00 00 00 a5 e7 58 00 b6 a0  (CumCrankRev: 88, LastCrankTime: 41142, CumWheelRev: 77, LastWheelTime: 59301)
+[00:00:06.720,397] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.720,886] <info> ble_ftms: machine_status_cccd_written
+[00:00:06.721,252] <info> ble_ftms: machine_status notificiations enabled
+[00:00:06.727,722] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.728,149] <info> ble_ftms: indoor_bike_cccd_written
+[00:00:06.730,773] <info> ble_cps: cpm: 30 00 00 00 4f 00 00 00 06 d4 58 00 b6 a0  (Incline 10, Watts: 178, Inst Cadence: 0.001307, Avg Cadence: 80, Avg speed: 50)
+[00:00:06.731,689] <info> ble_ftms: Total length: 14
+[00:00:06.731,994] <info> ble_ftms: ftms: ce 00 88 13 88 13 50 00 50 00 b2 00 b2 00  (Inst speed: 5000, Inst cadence: 0.000000, Avg Cadence: 80, Inst Power: 178, Avg: Power: 178)
+[00:00:06.733,032] <info> ble_cscs: cscm: 03 4f 00 00 00 03 ea 58 00 b6 a0  (CumCrankRev: 88, LastCrankTime: 41142, CumWheelRev: 79, LastWheelTime: 59907)
+[00:00:06.733,886] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.734,375] <info> ble_ftms: training_status_cccd_written
+[00:00:06.758,789] <info> app: zPower underflow. Correcting to 0W. ZPower: -62, RPM: 0, Incline: 10
+[00:00:06.767,700] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.768,188] <info> ble_ftms: ctrlpt_cccd_written
+[00:00:06.768,493] <info> app: INDICATION ENABLED
+[00:00:06.774,963] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.775,451] <info> ble_ftms: CCCD handle 0x000E unknown
+[00:00:06.775,817] <info> ble_ftms: ble_ftms::on_write() gatts_evt: handle: 0x0E, uuid: 0x2902, type: 0x01, len: 0x0002, data[0]=0x01
+[00:00:06.787,719] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.788,208] <info> ble_ftms: CCCD handle 0x0023 unknown
+[00:00:06.788,513] <info> ble_ftms: ble_ftms::on_write() gatts_evt: handle: 0x23, uuid: 0x2902, type: 0x01, len: 0x0002, data[0]=0x01
+[00:00:06.791,381] <info> ble_cps: cpm: 30 00 79 00 4f 00 00 00 04 d4 5a 00 7b a8  (Incline 10, Watts: 121, Inst Cadence: 0.001006, Avg Cadence: 61, Avg speed: 48)
+[00:00:06.792,297] <info> ble_ftms: Total length: 14
+[00:00:06.792,602] <info> ble_ftms: ftms: ce 00 c0 12 c0 12 3d 00 3d 00 7b 00 7b 00  (Inst speed: 4800, Inst cadence: 0.000000, Avg Cadence: 61, Inst Power: 123, Avg: Power: 123)
+[00:00:06.793,640] <info> ble_cscs: cscm: 03 4f 00 00 00 02 ea 5a 00 7b a8  (CumCrankRev: 90, LastCrankTime: 43131, CumWheelRev: 79, LastWheelTime: 59906)
+[00:00:06.805,908] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.806,396] <info> ble_ftms: CCCD handle 0x002A unknown
+[00:00:06.806,701] <info> ble_ftms: ble_ftms::on_write() gatts_evt: handle: 0x2A, uuid: 0x2902, type: 0x01, len: 0x0002, data[0]=0x02
+[00:00:06.816,772] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.817,260] <info> ble_ftms: CCCD handle 0x0018 unknown
+[00:00:06.817,626] <info> ble_ftms: ble_ftms::on_write() gatts_evt: handle: 0x18, uuid: 0x2902, type: 0x01, len: 0x0002, data[0]=0x01
+[00:00:06.836,791] <info> ble_ftms: ble_ftms::ble_ftms_on_ble_evt::BLE_GATTS_EVT_WRITE
+[00:00:06.837,280] <info> ble_ftms: CCCD handle 0x0012 unknown
+[00:00:06.837,646] <info> ble_ftms: ble_ftms::on_write() gatts_evt: handle: 0x12, uuid: 0x2902, type: 0x01, len: 0x0002, data[0]=0x01
+[00:00:06.849,487] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_REQUEST_CONTROL
+[00:00:06.850,158] <info> ble_ftms: ftms::ftms_op_acquire_control() called
+[00:00:06.850,585] <info> app: We received 1 as rsp.status
+[00:00:06.850,891] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 00 01
+[00:00:06.851,989] <info> ble_cps: cpm: 30 00 7f 00 53 00 00 00 5a e2 5b 00 44 ac  (Incline 10, Watts: 127, Inst Cadence: 0.001032, Avg Cadence: 63, Avg speed: 47)
+[00:00:06.852,905] <info> ble_ftms: Total length: 14
+[00:00:06.853,210] <info> ble_ftms: ftms: ce 00 5c 12 5c 12 3f 00 3f 00 80 00 80 00  (Inst speed: 4700, Inst cadence: 0.000000, Avg Cadence: 63, Inst Power: 128, Avg: Power: 128)
+[00:00:06.854,248] <info> ble_cscs: cscm: 03 53 00 00 00 2d f1 5b 00 44 ac  (CumCrankRev: 91, LastCrankTime: 44100, CumWheelRev: 83, LastWheelTime: 61741)
+[00:00:06.860,412] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_RESET
+[00:00:06.861,022] <info> ble_ftms: ftms::reset() called
+[00:00:06.861,328] <info> ble_ftms:  01                     |.
+[00:00:06.861,755] <info> app: We received 1 as rsp.status
+[00:00:06.862,060] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 01 01
+[00:00:06.871,337] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_REQUEST_CONTROL
+[00:00:06.872,009] <info> ble_ftms: ftms::ftms_op_acquire_control() called
+[00:00:06.872,436] <info> app: We received 1 as rsp.status
+[00:00:06.872,741] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 00 01
+[00:00:06.878,662] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_START_RESUME
+[00:00:06.879,272] <info> ble_ftms: ftms::ftms_op_start_resume_training() called
+[00:00:06.879,699] <info> ble_ftms:  04                     |.
+[00:00:06.880,126] <info> ble_ftms:  00 00                  |..
+[00:00:06.880,554] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 07 01
+[00:00:06.912,597] <info> ble_cps: cpm: 30 00 a0 00 55 00 00 00 a4 e8 5d 00 b1 b2  (Incline 10, Watts: 160, Inst Cadence: 0.001216, Avg Cadence: 74, Avg speed: 46)
+[00:00:06.913,513] <info> ble_ftms: Total length: 14
+[00:00:06.913,818] <info> ble_ftms: ftms: ce 00 f8 11 f8 11 4a 00 4a 00 a2 00 a2 00  (Inst speed: 4600, Inst cadence: 0.000000, Avg Cadence: 74, Inst Power: 162, Avg: Power: 162)
+[00:00:06.914,855] <info> ble_cscs: cscm: 03 55 00 00 00 52 f4 5d 00 b1 b2  (CumCrankRev: 93, LastCrankTime: 45745, CumWheelRev: 85, LastWheelTime: 62546)
+[00:00:06.973,205] <info> ble_cps: cpm: 30 00 c4 00 5a 00 00 00 16 f5 5e 00 7b b5  (Incline 10, Watts: 196, Inst Cadence: 0.001401, Avg Cadence: 86, Avg speed: 46)
+[00:00:06.974,121] <info> ble_ftms: Total length: 14
+[00:00:06.974,426] <info> ble_ftms: ftms: ce 00 f8 11 f8 11 56 00 56 00 c4 00 c4 00  (Inst speed: 4600, Inst cadence: 0.000000, Avg Cadence: 86, Inst Power: 196, Avg: Power: 196)
+[00:00:06.975,463] <info> ble_cscs: cscm: 03 5a 00 00 00 8b fa 5e 00 7b b5  (CumCrankRev: 94, LastCrankTime: 46459, CumWheelRev: 90, LastWheelTime: 64139)
+[00:00:07.033,813] <info> ble_cps: cpm: 30 00 bb 00 5c 00 00 00 68 f9 60 00 42 bb  (Incline 10, Watts: 187, Inst Cadence: 0.001352, Avg Cadence: 83, Avg speed: 45)
+[00:00:07.034,729] <info> ble_ftms: Total length: 14
+[00:00:07.035,034] <info> ble_ftms: ftms: ce 00 94 11 94 11 53 00 53 00 bb 00 bb 00  (Inst speed: 4500, Inst cadence: 0.000000, Avg Cadence: 83, Inst Power: 187, Avg: Power: 187)
+[00:00:07.036,071] <info> ble_cscs: cscm: 03 5c 00 00 00 b4 fc 60 00 42 bb  (CumCrankRev: 96, LastCrankTime: 47938, CumWheelRev: 92, LastWheelTime: 64692)
+[00:00:07.084,106] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_SET_TARGET_POWER
+[00:00:07.084,716] <info> ble_ftms: ftms::ftms_opt_set_target_power() called with target_power = 154
+[00:00:07.085,327] <info> ble_ftms:  08 9A 00               |...
+[00:00:07.085,693] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 05 01
+[00:00:07.094,421] <info> ble_cps: cpm: 30 00 a9 00 61 00 00 00 9a 04 61 00 58 be  (Incline 10, Watts: 169, Inst Cadence: 0.001266, Avg Cadence: 77, Avg speed: 45)
+[00:00:07.095,336] <info> ble_ftms: Total length: 14
+[00:00:07.095,642] <info> ble_ftms: ftms: ce 00 94 11 94 11 4d 00 4d 00 ab 00 ab 00  (Inst speed: 4500, Inst cadence: 0.000000, Avg Cadence: 77, Inst Power: 171, Avg: Power: 171)
+[00:00:07.096,618] <info> ble_cscs: cscm: 03 61 00 00 00 4d 02 61 00 58 be  (CumCrankRev: 97, LastCrankTime: 48728, CumWheelRev: 97, LastWheelTime: 589)
+[00:00:07.155,029] <info> ble_cps: cpm: 30 00 a9 00 63 00 00 00 9a 09 62 00 6f c1  (Incline 10, Watts: 169, Inst Cadence: 0.001264, Avg Cadence: 77, Avg speed: 44)
+[00:00:07.155,944] <info> ble_ftms: Total length: 14
+[00:00:07.156,250] <info> ble_ftms: ftms: ce 00 30 11 30 11 4d 00 4d 00 ab 00 ab 00  (Inst speed: 4400, Inst cadence: 0.000000, Avg Cadence: 77, Inst Power: 171, Avg: Power: 171)
+[00:00:07.157,226] <info> ble_cscs: cscm: 03 63 00 00 00 cd 04 62 00 6f c1  (CumCrankRev: 98, LastCrankTime: 49519, CumWheelRev: 99, LastWheelTime: 1229)
+[00:00:07.215,637] <info> ble_cps: cpm: 30 00 a6 00 65 00 00 00 7a 0e 63 00 92 c4  (Incline 10, Watts: 166, Inst Cadence: 0.001245, Avg Cadence: 76, Avg speed: 44)
+[00:00:07.216,552] <info> ble_ftms: Total length: 14
+[00:00:07.216,857] <info> ble_ftms: ftms: ce 00 30 11 30 11 4c 00 4c 00 a7 00 a7 00  (Inst speed: 4400, Inst cadence: 0.000000, Avg Cadence: 76, Inst Power: 167, Avg: Power: 167)
+[00:00:07.217,834] <info> ble_cscs: cscm: 03 65 00 00 00 3d 07 63 00 92 c4  (CumCrankRev: 99, LastCrankTime: 50322, CumWheelRev: 101, LastWheelTime: 1853)
+[00:00:07.276,245] <info> ble_cps: cpm: 30 00 a3 00 67 00 00 00 6a 13 65 00 f2 ca  (Incline 10, Watts: 163, Inst Cadence: 0.001225, Avg Cadence: 75, Avg speed: 43)
+[00:00:07.277,160] <info> ble_ftms: Total length: 14
+[00:00:07.277,465] <info> ble_ftms: ftms: ce 00 cc 10 cc 10 4b 00 4b 00 a3 00 a3 00  (Inst speed: 4300, Inst cadence: 0.000000, Avg Cadence: 75, Inst Power: 163, Avg: Power: 163)
+[00:00:07.278,442] <info> ble_cscs: cscm: 03 67 00 00 00 b5 09 65 00 f2 ca  (CumCrankRev: 101, LastCrankTime: 51954, CumWheelRev: 103, LastWheelTime: 2485)
+[00:00:07.336,853] <info> ble_cps: cpm: 30 00 94 00 6c 00 00 00 fc 1f 66 00 55 ce  (Incline 10, Watts: 148, Inst Cadence: 0.001153, Avg Cadence: 70, Avg speed: 43)
+[00:00:07.337,768] <info> ble_ftms: Total length: 14
+[00:00:07.338,073] <info> ble_ftms: ftms: ce 00 cc 10 cc 10 46 00 46 00 96 00 96 00  (Inst speed: 4300, Inst cadence: 0.000000, Avg Cadence: 70, Inst Power: 150, Avg: Power: 150)
+[00:00:07.339,050] <info> ble_cscs: cscm: 03 6c 00 00 00 fe 0f 66 00 55 ce  (CumCrankRev: 102, LastCrankTime: 52821, CumWheelRev: 108, LastWheelTime: 4094)
+[00:00:07.385,925] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_SET_TARGET_POWER
+[00:00:07.386,535] <info> ble_ftms: ftms::ftms_opt_set_target_power() called with target_power = 154
+[00:00:07.387,145] <info> ble_ftms:  08 9A 00               |...
+[00:00:07.387,512] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 05 01
+[00:00:07.397,460] <info> ble_cps: cpm: 30 00 94 00 6e 00 00 00 7a 25 67 00 b8 d1  (Incline 10, Watts: 148, Inst Cadence: 0.001153, Avg Cadence: 70, Avg speed: 43)
+[00:00:07.398,376] <info> ble_ftms: Total length: 14
+[00:00:07.398,681] <info> ble_ftms: ftms: ce 00 cc 10 cc 10 46 00 46 00 96 00 96 00  (Inst speed: 4300, Inst cadence: 0.000000, Avg Cadence: 70, Inst Power: 150, Avg: Power: 150)
+[00:00:07.399,658] <info> ble_cscs: cscm: 03 6e 00 00 00 bd 12 67 00 b8 d1  (CumCrankRev: 103, LastCrankTime: 53688, CumWheelRev: 110, LastWheelTime: 4797)
+[00:00:07.458,068] <info> ble_cps: cpm: 30 00 8b 00 70 00 00 00 d2 2a 68 00 41 d5  (Incline 10, Watts: 139, Inst Cadence: 0.001105, Avg Cadence: 67, Avg speed: 42)
+[00:00:07.458,984] <info> ble_ftms: Total length: 14
+[00:00:07.459,289] <info> ble_ftms: ftms: ce 00 68 10 68 10 43 00 43 00 8d 00 8d 00  (Inst speed: 4200, Inst cadence: 0.000000, Avg Cadence: 67, Inst Power: 141, Avg: Power: 141)
+[00:00:07.460,266] <info> ble_cscs: cscm: 03 70 00 00 00 69 15 68 00 41 d5  (CumCrankRev: 104, LastCrankTime: 54593, CumWheelRev: 112, LastWheelTime: 5481)
+[00:00:07.518,676] <info> ble_cps: cpm: 30 00 8b 00 72 00 00 00 7c 30 69 00 ca d8  (Incline 10, Watts: 139, Inst Cadence: 0.001105, Avg Cadence: 67, Avg speed: 42)
+[00:00:07.519,592] <info> ble_ftms: Total length: 14
+[00:00:07.519,897] <info> ble_ftms: ftms: ce 00 68 10 68 10 43 00 43 00 8d 00 8d 00  (Inst speed: 4200, Inst cadence: 0.000000, Avg Cadence: 67, Inst Power: 141, Avg: Power: 141)
+[00:00:07.520,874] <info> ble_cscs: cscm: 03 72 00 00 00 3e 18 69 00 ca d8  (CumCrankRev: 105, LastCrankTime: 55498, CumWheelRev: 114, LastWheelTime: 6206)
+[00:00:07.579,284] <info> ble_cps: cpm: 30 00 91 00 74 00 00 00 0c 36 6a 00 3a dc  (Incline 10, Watts: 145, Inst Cadence: 0.001136, Avg Cadence: 69, Avg speed: 41)
+[00:00:07.580,200] <info> ble_ftms: Total length: 14
+[00:00:07.580,505] <info> ble_ftms: ftms: ce 00 04 10 04 10 45 00 45 00 93 00 93 00  (Inst speed: 4100, Inst cadence: 0.000000, Avg Cadence: 69, Inst Power: 147, Avg: Power: 147)
+[00:00:07.581,481] <info> ble_cscs: cscm: 03 74 00 00 00 06 1b 6a 00 3a dc  (CumCrankRev: 106, LastCrankTime: 56378, CumWheelRev: 116, LastWheelTime: 6918)
+[00:00:07.639,892] <info> ble_cps: cpm: 30 00 94 00 76 00 00 00 60 3b 6b 00 9d df  (Incline 10, Watts: 148, Inst Cadence: 0.001153, Avg Cadence: 70, Avg speed: 41)
+[00:00:07.640,808] <info> ble_ftms: Total length: 14
+[00:00:07.641,113] <info> ble_ftms: ftms: ce 00 04 10 04 10 46 00 46 00 96 00 96 00  (Inst speed: 4100, Inst cadence: 0.000000, Avg Cadence: 70, Inst Power: 150, Avg: Power: 150)
+[00:00:07.642,089] <info> ble_cscs: cscm: 03 76 00 00 00 b0 1d 6b 00 9d df  (CumCrankRev: 107, LastCrankTime: 57245, CumWheelRev: 118, LastWheelTime: 7600)
+[00:00:07.689,514] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_SET_TARGET_POWER
+[00:00:07.690,185] <info> ble_ftms: ftms::ftms_opt_set_target_power() called with target_power = 154
+[00:00:07.690,734] <info> ble_ftms:  08 9A 00               |...
+[00:00:07.691,162] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 05 01
+[00:00:07.700,500] <info> ble_cps: cpm: 30 00 8e 00 78 00 00 00 a0 40 6c 00 1a e3  (Incline 10, Watts: 142, Inst Cadence: 0.001120, Avg Cadence: 68, Avg speed: 41)
+[00:00:07.701,416] <info> ble_ftms: Total length: 14
+[00:00:07.701,721] <info> ble_ftms: ftms: ce 00 04 10 04 10 44 00 44 00 90 00 90 00  (Inst speed: 4100, Inst cadence: 0.000000, Avg Cadence: 68, Inst Power: 144, Avg: Power: 144)
+[00:00:07.702,697] <info> ble_cscs: cscm: 03 78 00 00 00 50 20 6c 00 1a e3  (CumCrankRev: 108, LastCrankTime: 58138, CumWheelRev: 120, LastWheelTime: 8272)
+[00:00:07.761,108] <info> ble_cps: cpm: 30 00 8b 00 7a 00 00 00 08 46 6e 00 2c ea  (Incline 10, Watts: 139, Inst Cadence: 0.001105, Avg Cadence: 67, Avg speed: 40)
+[00:00:07.762,023] <info> ble_ftms: Total length: 14
+[00:00:07.762,329] <info> ble_ftms: ftms: ce 00 a0 0f a0 0f 43 00 43 00 8d 00 8d 00  (Inst speed: 4000, Inst cadence: 0.000000, Avg Cadence: 67, Inst Power: 141, Avg: Power: 141)
+[00:00:07.763,305] <info> ble_cscs: cscm: 03 7a 00 00 00 04 23 6e 00 2c ea  (CumCrankRev: 110, LastCrankTime: 59948, CumWheelRev: 122, LastWheelTime: 8964)
+[00:00:07.821,716] <info> ble_cps: cpm: 30 00 8b 00 7f 00 00 00 d6 53 6f 00 b5 ed  (Incline 10, Watts: 139, Inst Cadence: 0.001105, Avg Cadence: 67, Avg speed: 40)
+[00:00:07.822,631] <info> ble_ftms: Total length: 14
+[00:00:07.822,937] <info> ble_ftms: ftms: ce 00 a0 0f a0 0f 43 00 43 00 8d 00 8d 00  (Inst speed: 4000, Inst cadence: 0.000000, Avg Cadence: 67, Inst Power: 141, Avg: Power: 141)
+[00:00:07.823,913] <info> ble_cscs: cscm: 03 7f 00 00 00 eb 29 6f 00 b5 ed  (CumCrankRev: 111, LastCrankTime: 60853, CumWheelRev: 127, LastWheelTime: 10731)
+[00:00:07.882,324] <info> ble_cps: cpm: 30 00 9a 00 81 00 00 00 56 59 70 00 ff f0  (Incline 10, Watts: 154, Inst Cadence: 0.001188, Avg Cadence: 72, Avg speed: 40)
+[00:00:07.883,239] <info> ble_ftms: Total length: 14
+[00:00:07.883,544] <info> ble_ftms: ftms: ce 00 a0 0f a0 0f 48 00 48 00 9c 00 9c 00  (Inst speed: 4000, Inst cadence: 0.000000, Avg Cadence: 72, Inst Power: 156, Avg: Power: 156)
+[00:00:07.884,521] <info> ble_cscs: cscm: 03 81 00 00 00 ab 2c 70 00 ff f0  (CumCrankRev: 112, LastCrankTime: 61695, CumWheelRev: 129, LastWheelTime: 11435)
+[00:00:07.942,932] <info> ble_cps: cpm: 30 00 00 00 83 00 00 00 6e 5e 70 00 ff f0  (Incline 10, Watts: 154, Inst Cadence: 0.001188, Avg Cadence: 72, Avg speed: 40)
+[00:00:07.943,847] <info> ble_ftms: Total length: 14
+[00:00:07.944,152] <info> ble_ftms: ftms: ce 00 a0 0f a0 0f 48 00 48 00 9c 00 9c 00  (Inst speed: 4000, Inst cadence: 0.000000, Avg Cadence: 72, Inst Power: 156, Avg: Power: 156)
+[00:00:07.945,129] <info> ble_cscs: cscm: 03 83 00 00 00 37 2f 70 00 ff f0  (CumCrankRev: 112, LastCrankTime: 61695, CumWheelRev: 131, LastWheelTime: 12087)
+[00:00:07.970,947] <info> app: zPower underflow. Correcting to 0W. ZPower: -62, RPM: 0, Incline: 10
+[00:00:07.993,164] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_SET_TARGET_POWER
+[00:00:07.993,835] <info> ble_ftms: ftms::ftms_opt_set_target_power() called with target_power = 154
+[00:00:07.994,384] <info> ble_ftms:  08 9A 00               |...
+[00:00:07.994,812] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 05 01
+[00:00:08.003,540] <info> ble_cps: cpm: 30 00 00 00 83 00 00 00 6c 5e 70 00 ff f0  (Incline 10, Watts: 154, Inst Cadence: 0.001188, Avg Cadence: 72, Avg speed: 40)
+[00:00:08.004,455] <info> ble_ftms: Total length: 14
+[00:00:08.004,760] <info> ble_ftms: ftms: ce 00 a0 0f a0 0f 48 00 48 00 9c 00 9c 00  (Inst speed: 4000, Inst cadence: 0.000000, Avg Cadence: 72, Inst Power: 156, Avg: Power: 156)
+[00:00:08.005,737] <info> ble_cscs: cscm: 03 83 00 00 00 36 2f 70 00 ff f0  (CumCrankRev: 112, LastCrankTime: 61695, CumWheelRev: 131, LastWheelTime: 12086)
+[00:00:08.031,555] <info> app: zPower underflow. Correcting to 0W. ZPower: -62, RPM: 0, Incline: 10
+[00:00:08.064,147] <info> ble_cps: cpm: 30 00 00 00 83 00 00 00 6a 5e 70 00 ff f0  (Incline 10, Watts: 154, Inst Cadence: 0.001188, Avg Cadence: 72, Avg speed: 40)
+[00:00:08.065,063] <info> ble_ftms: Total length: 14
+[00:00:08.065,368] <info> ble_ftms: ftms: ce 00 a0 0f a0 0f 48 00 48 00 9c 00 9c 00  (Inst speed: 4000, Inst cadence: 0.000000, Avg Cadence: 72, Inst Power: 156, Avg: Power: 156)
+[00:00:08.066,345] <info> ble_cscs: cscm: 03 83 00 00 00 35 2f 70 00 ff f0  (CumCrankRev: 112, LastCrankTime: 61695, CumWheelRev: 131, LastWheelTime: 12085)
+[00:00:08.092,163] <info> app: zPower underflow. Correcting to 0W. ZPower: -62, RPM: 0, Incline: 10
+[00:00:08.124,755] <info> ble_cps: cpm: 30 00 00 00 83 00 00 00 68 5e 70 00 ff f0  (Incline 10, Watts: 154, Inst Cadence: 0.001188, Avg Cadence: 72, Avg speed: 40)
+[00:00:08.125,671] <info> ble_ftms: Total length: 14
+[00:00:08.125,976] <info> ble_ftms: ftms: ce 00 a0 0f a0 0f 48 00 48 00 9c 00 9c 00  (Inst speed: 4000, Inst cadence: 0.000000, Avg Cadence: 72, Inst Power: 156, Avg: Power: 156)
+[00:00:08.126,953] <info> ble_cscs: cscm: 03 83 00 00 00 34 2f 70 00 ff f0  (CumCrankRev: 112, LastCrankTime: 61695, CumWheelRev: 131, LastWheelTime: 12084)
+[00:00:08.152,770] <info> app: zPower underflow. Correcting to 0W. ZPower: -62, RPM: 0, Incline: 10

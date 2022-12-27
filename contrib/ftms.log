@@ -1,0 +1,102 @@
+[00:00:02.968,139] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:02.968,505] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_REQUEST_CONTROL
+[00:00:02.969,177] <info> app: In ftms_ctrlpt_event_handler()
+[00:00:02.969,482] <info> app: Received event BLE_FTMS_CTRLPT_EVT_REQUEST_CONTROL. Acquiring control...
+[00:00:02.970,092] <info> ble_ftms: ftms::ftms_op_acquire_control() called
+[00:00:02.970,520] <info> app: We received 1 as rsp.status
+[00:00:02.970,825] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 00 01
+[00:00:02.997,009] <info> ble_cps: cpm: 30 00 82 00 1a 00 00 00 44 6d 28 00 bf 4b  (Incline 10, Watts: 130)
+[00:00:03.004,455] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.004,821] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_START_RESUME
+[00:00:03.005,493] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 07 05
+[00:00:03.035,400] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.035,766] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.036,315] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.057,617] <info> ble_cps: cpm: 30 00 00 00 1c 00 00 00 0e 73 28 00 bf 4b  (Incline 10, Watts: 130)
+[00:00:03.066,284] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.066,650] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.067,199] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.072,937] <info> app: zPower underflow. Correcting to 0W. ZPower: -62, RPM: 0, Incline: 10
+[00:00:03.100,830] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.101,196] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.101,745] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.118,225] <info> ble_cps: cpm: 30 00 5b 00 1c 00 00 00 0c 73 29 00 6e 50  (Incline 10, Watts: 91)
+[00:00:03.131,774] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.132,141] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.132,690] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.168,090] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.168,457] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.169,006] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.178,833] <info> ble_cps: cpm: 30 00 00 00 1e 00 00 00 2a 7b 29 00 6e 50  (Incline 10, Watts: 91)
+[00:00:03.194,152] <info> app: zPower underflow. Correcting to 0W. ZPower: -62, RPM: 0, Incline: 10
+[00:00:03.199,035] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.199,401] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.199,951] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.235,351] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.235,717] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.236,267] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.239,440] <info> ble_cps: cpm: 30 00 00 00 1e 00 00 00 28 7b 29 00 6e 50  (Incline 10, Watts: 91)
+[00:00:03.254,699] <info> app: zPower underflow. Correcting to 0W. ZPower: -62, RPM: 0, Incline: 10
+[00:00:03.264,465] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.264,831] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.265,380] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.297,180] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.297,546] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_REQUEST_CONTROL
+[00:00:03.298,217] <info> app: In ftms_ctrlpt_event_handler()
+[00:00:03.298,583] <info> app: Received event BLE_FTMS_CTRLPT_EVT_REQUEST_CONTROL. Acquiring control...
+[00:00:03.299,133] <info> ble_ftms: ftms::ftms_op_acquire_control() called
+[00:00:03.299,560] <info> app: We received 1 as rsp.status
+[00:00:03.299,865] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 00 01
+[00:00:03.300,354] <info> ble_cps: cpm: 30 00 22 00 1e 00 00 00 26 7b 2a 00 c0 57  (Incline 10, Watts: 34)
+[00:00:03.331,787] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.332,153] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_START_RESUME
+[00:00:03.332,763] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 07 05
+[00:00:03.360,656] <info> ble_cps: cpm: 30 00 1f 00 20 00 00 00 96 89 2b 00 6c 5f  (Incline 10, Watts: 31)
+[00:00:03.362,670] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.363,037] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.363,586] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.398,986] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.399,414] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.399,902] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.421,264] <info> ble_cps: cpm: 30 00 28 00 22 00 00 00 ea 97 2c 00 71 66  (Incline 10, Watts: 40)
+[00:00:03.428,100] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.428,466] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.429,016] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.464,477] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.464,843] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.465,393] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.481,872] <info> ble_cps: cpm: 30 00 3a 00 24 00 00 00 0a a4 2d 00 6b 6c  (Incline 10, Watts: 58)
+[00:00:03.495,422] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.495,788] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.496,276] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.531,738] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.532,104] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.532,653] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.542,480] <info> ble_cps: cpm: 30 00 9d 00 26 00 00 00 8a ad 2f 00 f2 72  (Incline 10, Watts: 157)
+[00:00:03.562,683] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.563,049] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.563,598] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.593,566] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.593,933] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.594,482] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.603,088] <info> ble_cps: cpm: 30 00 a3 00 2b 00 00 00 30 ba 30 00 22 76  (Incline 10, Watts: 163)
+[00:00:03.628,112] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.628,479] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_REQUEST_CONTROL
+[00:00:03.629,150] <info> app: In ftms_ctrlpt_event_handler()
+[00:00:03.629,516] <info> app: Received event BLE_FTMS_CTRLPT_EVT_REQUEST_CONTROL. Acquiring control...
+[00:00:03.630,065] <info> ble_ftms: ftms::ftms_op_acquire_control() called
+[00:00:03.630,493] <info> app: We received 1 as rsp.status
+[00:00:03.630,798] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 00 01
+[00:00:03.658,996] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.659,423] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - Decoding params for BLE_FTMSPT_START_RESUME
+[00:00:03.660,034] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 07 05
+[00:00:03.663,696] <info> ble_cps: cpm: 30 00 97 00 2d 00 00 00 20 bf 31 00 78 79  (Incline 10, Watts: 151)
+[00:00:03.695,373] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.695,739] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.696,289] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.724,304] <info> ble_cps: cpm: 30 00 97 00 2f 00 00 00 4c c4 32 00 ce 7c  (Incline 10, Watts: 151)
+[00:00:03.726,318] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.726,684] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM
+[00:00:03.727,233] <info> app: ble_ftms_ctrlpt::ctrlpt_rsp_encode: 80 11 02
+[00:00:03.762,634] <info> app: ble_ftms_ctrlpt::on_ctrlpt_write()
+[00:00:03.763,000] <info> app: ble_ftms_ctrlpt::ftms_ctrlpr_decode() - NRF_ERROR_INVALID_PARAM

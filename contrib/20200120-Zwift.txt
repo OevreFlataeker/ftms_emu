@@ -1,0 +1,696 @@
+picocom v3.1
+
+port is        : /dev/ttyACM0
+flowcontrol    : none
+baudrate is    : 115200
+parity is      : none
+databits are   : 8
+stopbits are   : 1
+escape is      : C-a
+local echo is  : no
+noinit is      : no
+noreset is     : no
+hangup is      : no
+nolock is      : yes
+send_cmd is    : sz -vv
+receive_cmd is : rz -vv -E
+imap is        : 
+omap is        : 
+emap is        : crcrlf,delbs,
+logfile is     : none
+initstring     : none
+exit_after is  : not set
+exit is        : no
+
+Type [C-a] [C-h] to see available commands
+Terminal ready
+Zc[00:00:00.570,922] <info> app: Central connected
+[00:00:00.571,166] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.627,319] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.627,868] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.628,356] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.628,845] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.676,940] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.695,068] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.695,495] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.696,044] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.749,633] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.809,692] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.870,300] <info> calculations: Execution time (ms): 0.0313
+[00:00:00.930,908] <info> calculations: Execution time (ms): 0.0313
+[00:00:00.991,516] <info> calculations: Execution time (ms): 0.0313
+[00:00:01.052,124] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.112,731] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.173,339] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.233,947] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.294,555] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.355,163] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.415,771] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.476,379] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.536,987] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.597,534] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.658,142] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.718,750] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.779,357] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.839,965] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.900,573] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.961,181] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.021,789] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.082,397] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.143,005] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.203,613] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.264,221] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.324,829] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.385,437] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.446,044] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.506,652] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.567,260] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.627,868] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.688,476] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.749,084] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.809,692] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.870,300] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.930,908] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.991,516] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.052,124] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.112,731] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.173,339] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.233,947] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.294,555] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.355,163] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.415,771] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.476,379] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.536,987] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.597,534] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.658,142] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.718,750] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.779,357] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.839,965] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.900,573] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.961,181] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.021,789] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.082,397] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.143,005] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.203,613] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.264,221] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.324,829] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.385,437] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.446,044] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.506,652] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.567,260] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.627,868] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.688,476] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.749,084] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.809,692] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.870,300] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.930,908] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.049,804] <info> app: GAP addr type: Random static
+[00:00:00.050,170] <info> app: Our address: 55:2b:0b:05:b3:c9
+[00:00:00.050,537] <info> app: 1 peers stored in persistent flash
+[00:00:00.050,903] <info> app: Own role: BLE_GAP_ROLE_CENTRAL
+[00:00:00.051,269] <info> app: Peer address: 25:3a:97:d0:22:00
+[00:00:00.051,635] <info> app: Identity recovery key of peer: 0xdcd319d9d5c9a99ca27d42fb2473fa5b
+[00:00:00.052,246] <info> ble_ftms: ble_ftms::ble_ftms_init() successfully finished
+[00:00:00.052,734] <info> app: nRF CPS relay started.
+[00:00:00.053,039] <info> app: Fast advertising.
+[00:00:00.243,286] <info> app: Central connected
+[00:00:00.243,591] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.285,156] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.285,705] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.286,193] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.286,682] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.288,879] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.289,428] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.321,533] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.352,905] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.407,409] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.467,529] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.528,137] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.588,745] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.649,353] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.709,960] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.770,568] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.831,176] <info> calculations: Execution time (ms): 0.0313
+[00:00:00.891,784] <info> calculations: Execution time (ms): 0.0313
+[00:00:00.952,392] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.013,000] <info> calculations: Execution time (ms): 0.0313
+[00:00:01.073,608] <info> calculations: Execution time (ms): 0.0313
+[00:00:01.134,216] <info> calculations: Execution time (ms): 0.0313
+[00:00:01.194,824] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.255,432] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.316,040] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.376,647] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.437,194] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.497,802] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.558,410] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.619,018] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.679,626] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.740,234] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.800,842] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.861,450] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.922,058] <info> calculations: Execution time (ms): 0.0000
+[00:00:01.982,666] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.043,273] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.103,881] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.164,489] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.225,097] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.285,705] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.346,313] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.406,921] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.467,529] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.528,137] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.588,745] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.649,353] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.709,960] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.770,568] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.831,176] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.891,784] <info> calculations: Execution time (ms): 0.0000
+[00:00:02.952,392] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.013,000] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.073,608] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.134,216] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.194,824] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.255,432] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.316,040] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.376,647] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.437,255] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.497,802] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.558,410] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.619,018] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.679,626] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.740,234] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.800,842] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.861,450] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.922,058] <info> calculations: Execution time (ms): 0.0000
+[00:00:03.982,666] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.043,273] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.103,881] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.164,489] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.225,097] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.285,705] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.346,313] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.406,921] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.467,529] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.528,137] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.588,745] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.649,353] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.709,960] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.770,568] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.831,176] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.891,784] <info> calculations: Execution time (ms): 0.0000
+[00:00:04.952,392] <info> calculations: Execution time (ms): 0.0000
+[00:00:05.013,000] <info> calculations: Execution time (ms): 0.0000
+[00:00:05.073,608] <info> calculations: Execution time (ms): 0.0000
+[00:00:05.134,216] <info> calculations: Execution time (ms): 0.0000
+[00:00:05.194,824] <info> calculations: Execution time (ms): 0.0000
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.051,086] <info> app: GAP addr type: Random static
+[00:00:00.051,452] <info> app: Our address: 55:2b:0b:05:b3:c9
+[00:00:00.051,818] <info> app: 1 peers stored in persistent flash
+[00:00:00.052,185] <info> app: Own role: BLE_GAP_ROLE_CENTRAL
+[00:00:00.052,551] <info> app: Peer address: 25:3a:97:d0:22:00
+[00:00:00.052,917] <info> app: Identity recovery key of peer: 0xdcd319d9d5c9a99ca27d42fb2473fa5b
+[00:00:00.053,527] <info> ble_ftms: ble_ftms::ble_ftms_init() successfully finished
+[00:00:00.054,016] <info> app: nRF CPS relay started.
+[00:00:00.054,321] <info> app: Fast advertising.
+[00:00:00.256,469] <info> app: Central connected
+[00:00:00.256,774] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.298,339] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.298,889] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.299,377] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.299,865] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.329,833] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.330,383] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.349,304] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.366,088] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.420,593] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.480,712] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.541,320] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.601,928] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.662,536] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.723,144] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.783,752] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.844,360] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.904,968] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.965,576] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:01.026,184] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:01.086,791] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:01.147,399] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.208,007] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:01.268,615] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.329,223] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.389,831] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.450,439] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.511,047] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.571,655] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.632,263] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.692,810] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.753,417] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.814,025] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.874,633] <info> calculations: Execution time (ms): 0.0313, Ticks: 1
+[00:00:01.935,241] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:01.995,849] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.056,457] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.117,065] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.177,673] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.238,281] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.298,889] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.359,497] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.420,104] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.480,712] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.541,320] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.601,928] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.662,536] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.723,144] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.783,752] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.844,360] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.904,968] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:02.965,576] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.026,184] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.086,791] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.147,399] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.208,007] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.268,615] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.329,223] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.389,831] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.450,439] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.511,047] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.571,655] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.632,202] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.692,810] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.753,417] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.814,025] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.874,633] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.935,241] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:03.995,849] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.056,457] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.117,065] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.177,673] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.238,281] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.298,889] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.359,497] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.420,104] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.480,712] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.541,320] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.601,928] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.662,536] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.723,144] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.783,752] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.844,360] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.904,968] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:04.965,576] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:05.026,184] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:05.086,791] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:05.147,399] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:05.208,007] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:05.268,615] <info> calculations: Execution time (ms): 0.0000, Ticks: 0
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.049,316] <info> app: GAP addr type: Random static
+[00:00:00.049,621] <info> app: Our address: 55:2b:0b:05:b3:c9
+[00:00:00.049,987] <info> app: 1 peers stored in persistent flash
+[00:00:00.050,354] <info> app: Own role: BLE_GAP_ROLE_CENTRAL
+[00:00:00.050,720] <info> app: Peer address: 25:3a:97:d0:22:00
+[00:00:00.051,086] <info> app: Identity recovery key of peer: 0xdcd319d9d5c9a99ca27d42fb2473fa5b
+[00:00:00.051,696] <info> ble_ftms: ble_ftms::ble_ftms_init() successfully finished
+[00:00:00.052,185] <info> app: nRF CPS relay started.
+[00:00:00.052,551] <info> app: Fast advertising.
+[00:00:00.097,351] <info> app: Central connected
+[00:00:00.097,656] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.141,113] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.141,601] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.142,089] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.142,578] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.172,485] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.173,095] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.177,429] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.351,806] <info> calculations: Execution time (ms): 1207.7500, Ticks: 38648
+[00:00:00.531,555] <info> calculations: Execution time (ms): 1206.4375, Ticks: 38606
+[00:00:00.711,547] <info> calculations: Execution time (ms): 1206.6563, Ticks: 38613
+[00:00:00.854,736] <info> calculations: Execution time (ms): 1205.9063, Ticks: 38589
+[00:00:00.998,107] <info> calculations: Execution time (ms): 1207.0938, Ticks: 38627
+[00:00:01.141,540] <info> calculations: Execution time (ms): 1207.6875, Ticks: 38646
+[00:00:01.284,973] <info> calculations: Execution time (ms): 1207.7188, Ticks: 38647
+[00:00:01.428,344] <info> calculations: Execution time (ms): 1207.0625, Ticks: 38626
+[00:00:01.571,594] <info> calculations: Execution time (ms): 1206.0313, Ticks: 38593
+[00:00:01.714,965] <info> calculations: Execution time (ms): 1207.1250, Ticks: 38628
+[00:00:01.858,459] <info> calculations: Execution time (ms): 1208.2188, Ticks: 38663
+[00:00:02.001,892] <info> calculations: Execution time (ms): 1207.7188, Ticks: 38647
+[00:00:02.145,202] <info> calculations: Execution time (ms): 1206.4688, Ticks: 38607
+[00:00:02.288,635] <info> calculations: Execution time (ms): 1207.7188, Ticks: 38647
+[00:00:02.431,945] <info> calculations: Execution time (ms): 1206.8125, Ticks: 38618
+[00:00:02.575,256] <info> calculations: Execution time (ms): 1206.8125, Ticks: 38618
+[00:00:02.718,627] <info> calculations: Execution time (ms): 1206.9375, Ticks: 38622
+[00:00:02.862,060] <info> calculations: Execution time (ms): 1207.8125, Ticks: 38650
+[00:00:03.005,493] <info> calculations: Execution time (ms): 1207.3125, Ticks: 38634
+[00:00:03.148,925] <info> calculations: Execution time (ms): 1207.7188, Ticks: 38647
+[00:00:03.292,358] <info> calculations: Execution time (ms): 1207.7188, Ticks: 38647
+[00:00:03.435,852] <info> calculations: Execution time (ms): 1208.2500, Ticks: 38664
+[00:00:03.579,162] <info> calculations: Execution time (ms): 1206.6563, Ticks: 38613
+[00:00:03.722,534] <info> calculations: Execution time (ms): 1207.1250, Ticks: 38628
+[00:00:03.866,088] <info> calculations: Execution time (ms): 1208.5625, Ticks: 38674
+[00:00:04.009,460] <info> calculations: Execution time (ms): 1207.2813, Ticks: 38633
+[00:00:04.152,954] <info> calculations: Execution time (ms): 1208.2188, Ticks: 38663
+[00:00:04.296,386] <info> calculations: Execution time (ms): 1207.4375, Ticks: 38638
+[00:00:04.439,697] <info> calculations: Execution time (ms): 1206.9063, Ticks: 38621
+[00:00:04.583,190] <info> calculations: Execution time (ms): 1207.9063, Ticks: 38653
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.050,537] <info> app: GAP addr type: Random static
+[00:00:00.050,842] <info> app: Our address: 55:2b:0b:05:b3:c9
+[00:00:00.051,208] <info> app: 1 peers stored in persistent flash
+[00:00:00.051,635] <info> app: Own role: BLE_GAP_ROLE_CENTRAL
+[00:00:00.051,940] <info> app: Peer address: 25:3a:97:d0:22:00
+[00:00:00.052,307] <info> app: Identity recovery key of peer: 0xdcd319d9d5c9a99ca27d42fb2473fa5b
+[00:00:00.052,917] <info> ble_ftms: ble_ftms::ble_ftms_init() successfully finished
+[00:00:00.053,466] <info> app: nRF CPS relay started.
+[00:00:00.053,771] <info> app: Fast advertising.
+[00:00:00.128,967] <info> app: Central connected
+[00:00:00.129,272] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.179,931] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.180,480] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.180,969] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.181,457] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.216,308] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.229,553] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.230,102] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.390,686] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.391,052] <info> calculations: Execution time (ms): 1211
+[00:00:00.570,922] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.571,289] <info> calculations: Execution time (ms): 1211
+[00:00:00.751,037] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.751,464] <info> calculations: Execution time (ms): 1209
+[00:00:00.894,714] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.895,080] <info> calculations: Execution time (ms): 1210
+[00:00:01.038,330] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:01.038,757] <info> calculations: Execution time (ms): 1211
+[00:00:01.181,945] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:01.182,312] <info> calculations: Execution time (ms): 1210
+[00:00:01.325,500] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:01.325,866] <info> calculations: Execution time (ms): 1210
+[00:00:01.468,994] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:01.469,360] <info> calculations: Execution time (ms): 1209
+[00:00:01.612,548] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:01.612,915] <info> calculations: Execution time (ms): 1210
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.050,659] <info> app: GAP addr type: Random static
+[00:00:00.050,964] <info> app: Our address: 55:2b:0b:05:b3:c9
+[00:00:00.051,330] <info> app: 1 peers stored in persistent flash
+[00:00:00.051,757] <info> app: Own role: BLE_GAP_ROLE_CENTRAL
+[00:00:00.052,062] <info> app: Peer address: 25:3a:97:d0:22:00
+[00:00:00.052,429] <info> app: Identity recovery key of peer: 0xdcd319d9d5c9a99ca27d42fb2473fa5b
+[00:00:00.053,039] <info> ble_ftms: ble_ftms::ble_ftms_init() successfully finished
+[00:00:00.053,588] <info> app: nRF CPS relay started.
+[00:00:00.053,894] <info> app: Fast advertising.
+[00:00:00.098,693] <info> app: Central connected
+[00:00:00.098,937] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.144,165] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.144,714] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.145,202] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.145,690] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.160,583] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.161,132] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.180,541] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.211,914] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.212,280] <info> calculations: Execution time (ms): 3
+[00:00:00.266,540] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.266,906] <info> calculations: Execution time (ms): 3
+[00:00:00.326,538] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.326,904] <info> calculations: Execution time (ms): 3
+[00:00:00.387,145] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.387,512] <info> calculations: Execution time (ms): 3
+[00:00:00.447,753] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.448,120] <info> calculations: Execution time (ms): 3
+[00:00:00.508,361] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.508,728] <info> calculations: Execution time (ms): 3
+[00:00:00.568,969] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.569,335] <info> calculations: Execution time (ms): 3
+[00:00:00.629,577] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.629,943] <info> calculations: Execution time (ms): 3
+[00:00:00.690,185] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.690,551] <info> calculations: Execution time (ms): 3
+[00:00:00.750,793] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.751,159] <info> calculations: Execution time (ms): 3
+[00:00:00.811,401] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.811,767] <info> calculations: Execution time (ms): 3
+[00:00:00.872,009] <info> calculations: Inst. power: 0, Avg. power: 0
+[00:00:00.872,375] <info> calculations: Execution time (ms): 3
+[00:00:00.932,617] <info> calculations: m/s: 4.99, km/h: 17.97
+[00:00:00.932,983] <info> calculations: Inst. power: 104, Avg. power: 104
+[00:00:00.933,349] <info> calculations: Execution time (ms): 7
+[00:00:00.993,225] <info> calculations: m/s: 5.22, km/h: 18.79
+[00:00:00.993,591] <info> calculations: Inst. power: 112, Avg. power: 112
+[00:00:00.993,957] <info> calculations: Execution time (ms): 7
+[00:00:01.053,833] <info> calculations: m/s: 5.47, km/h: 19.69
+[00:00:01.054,199] <info> calculations: Inst. power: 120, Avg. power: 120
+[00:00:01.054,565] <info> calculations: Execution time (ms): 7
+[00:00:01.114,440] <info> calculations: m/s: 5.43, km/h: 19.54
+[00:00:01.114,807] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.115,173] <info> calculations: Execution time (ms): 7
+[00:00:01.175,048] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.175,415] <info> calculations: Execution time (ms): 4
+[00:00:01.235,656] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.236,022] <info> calculations: Execution time (ms): 4
+[00:00:01.296,264] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.296,630] <info> calculations: Execution time (ms): 4
+[00:00:01.356,811] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.357,238] <info> calculations: Execution time (ms): 4
+[00:00:01.417,419] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.417,846] <info> calculations: Execution time (ms): 4
+[00:00:01.478,027] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.478,454] <info> calculations: Execution time (ms): 4
+[00:00:01.538,635] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.539,062] <info> calculations: Execution time (ms): 4
+[00:00:01.599,243] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.599,670] <info> calculations: Execution time (ms): 4
+[00:00:01.659,851] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.660,278] <info> calculations: Execution time (ms): 4
+[00:00:01.720,458] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.720,886] <info> calculations: Execution time (ms): 4
+[00:00:01.781,066] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.781,494] <info> calculations: Execution time (ms): 4
+[00:00:01.841,674] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.842,102] <info> calculations: Execution time (ms): 4
+[00:00:01.902,282] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.902,709] <info> calculations: Execution time (ms): 4
+[00:00:01.962,890] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:01.963,317] <info> calculations: Execution time (ms): 4
+[00:00:02.023,498] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.023,925] <info> calculations: Execution time (ms): 4
+[00:00:02.084,106] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.084,533] <info> calculations: Execution time (ms): 4
+[00:00:02.144,714] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.145,141] <info> calculations: Execution time (ms): 4
+[00:00:02.205,322] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.205,749] <info> calculations: Execution time (ms): 4
+[00:00:02.265,930] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.266,357] <info> calculations: Execution time (ms): 4
+[00:00:02.326,538] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.326,965] <info> calculations: Execution time (ms): 4
+[00:00:02.387,145] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.387,573] <info> calculations: Execution time (ms): 4
+[00:00:02.447,753] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.448,181] <info> calculations: Execution time (ms): 4
+[00:00:02.508,361] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.508,789] <info> calculations: Execution time (ms): 4
+[00:00:02.568,969] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.569,396] <info> calculations: Execution time (ms): 4
+[00:00:02.629,577] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.630,004] <info> calculations: Execution time (ms): 4
+[00:00:02.690,185] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.690,612] <info> calculations: Execution time (ms): 4
+[00:00:02.750,793] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.751,220] <info> calculations: Execution time (ms): 4
+[00:00:02.811,401] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.811,828] <info> calculations: Execution time (ms): 4
+[00:00:02.872,009] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.872,436] <info> calculations: Execution time (ms): 4
+[00:00:02.932,617] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.933,044] <info> calculations: Execution time (ms): 4
+[00:00:02.993,225] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:02.993,591] <info> calculations: Execution time (ms): 4
+[00:00:03.053,833] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.054,199] <info> calculations: Execution time (ms): 4
+[00:00:03.114,440] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.114,807] <info> calculations: Execution time (ms): 4
+[00:00:03.175,048] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.175,415] <info> calculations: Execution time (ms): 4
+[00:00:03.235,656] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.236,022] <info> calculations: Execution time (ms): 4
+[00:00:03.296,264] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.296,630] <info> calculations: Execution time (ms): 4
+[00:00:03.356,872] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.357,238] <info> calculations: Execution time (ms): 4
+[00:00:03.417,419] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.417,846] <info> calculations: Execution time (ms): 4
+[00:00:03.478,027] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.478,454] <info> calculations: Execution time (ms): 4
+[00:00:03.538,635] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.539,062] <info> calculations: Execution time (ms): 4
+[00:00:03.599,243] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.599,670] <info> calculations: Execution time (ms): 4
+[00:00:03.659,851] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.660,278] <info> calculations: Execution time (ms): 4
+[00:00:03.720,458] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.720,886] <info> calculations: Execution time (ms): 4
+[00:00:03.781,066] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.781,494] <info> calculations: Execution time (ms): 4
+[00:00:03.841,674] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.842,102] <info> calculations: Execution time (ms): 4
+[00:00:03.902,282] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.902,709] <info> calculations: Execution time (ms): 4
+[00:00:03.962,890] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:03.963,317] <info> calculations: Execution time (ms): 4
+[00:00:04.023,498] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.023,925] <info> calculations: Execution time (ms): 4
+[00:00:04.084,106] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.084,533] <info> calculations: Execution time (ms): 4
+[00:00:04.144,714] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.145,141] <info> calculations: Execution time (ms): 4
+[00:00:04.205,322] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.205,749] <info> calculations: Execution time (ms): 4
+[00:00:04.265,930] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.266,357] <info> calculations: Execution time (ms): 4
+[00:00:04.326,538] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.326,965] <info> calculations: Execution time (ms): 4
+[00:00:04.387,145] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.387,573] <info> calculations: Execution time (ms): 4
+[00:00:04.447,753] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.448,181] <info> calculations: Execution time (ms): 4
+[00:00:04.508,361] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.508,789] <info> calculations: Execution time (ms): 4
+[00:00:04.568,969] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.569,396] <info> calculations: Execution time (ms): 4
+[00:00:04.629,577] <info> calculations: Inst. power: 119, Avg. power: 119
+[00:00:04.630,004] <info> calculations: Execution time (ms): 4
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.049,194] <info> app: GAP addr type: Random static
+[00:00:00.049,499] <info> app: Our address: 55:2b:0b:05:b3:c9
+[00:00:00.049,865] <info> app: 1 peers stored in persistent flash
+[00:00:00.050,231] <info> app: Own role: BLE_GAP_ROLE_CENTRAL
+[00:00:00.050,598] <info> app: Peer address: 25:3a:97:d0:22:00
+[00:00:00.050,964] <info> app: Identity recovery key of peer: 0xdcd319d9d5c9a99ca27d42fb2473fa5b
+[00:00:00.051,574] <info> ble_ftms: ble_ftms::ble_ftms_init() successfully finished
+[00:00:00.052,062] <info> app: nRF CPS relay started.
+[00:00:00.052,429] <info> app: Fast advertising.
+[00:00:00.181,335] <info> app: Central connected
+[00:00:00.181,640] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.223,205] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.223,754] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.224,182] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.224,731] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.235,961] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.236,511] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.259,582] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.290,954] <info> calculations: Execution time (ms): 0
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.050,537] <info> app: GAP addr type: Random static
+[00:00:00.050,842] <info> app: Our address: 55:2b:0b:05:b3:c9
+[00:00:00.051,208] <info> app: 1 peers stored in persistent flash
+[00:00:00.051,635] <info> app: Own role: BLE_GAP_ROLE_CENTRAL
+[00:00:00.051,940] <info> app: Peer address: 25:3a:97:d0:22:00
+[00:00:00.052,307] <info> app: Identity recovery key of peer: 0xdcd319d9d5c9a99ca27d42fb2473fa5b
+[00:00:00.052,917] <info> ble_ftms: ble_ftms::ble_ftms_init() successfully finished
+[00:00:00.053,466] <info> app: nRF CPS relay started.
+[00:00:00.053,771] <info> app: Fast advertising.
+[00:00:00.447,753] <info> app: Central connected
+[00:00:00.448,059] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.487,854] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.488,342] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.488,830] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.489,318] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.524,230] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.555,603] <info> calculations: Execution time (ms): 0
+[00:00:00.556,030] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.556,579] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.610,107] <info> calculations: Execution time (ms): 0
+[00:00:00.670,166] <info> calculations: Execution time (ms): 0
+[00:00:00.730,773] <info> calculations: Execution time (ms): 0
+[00:00:00.791,381] <info> calculations: Execution time (ms): 0
+[00:00:00.851,989] <info> calculations: Execution time (ms): 0
+[00:00:00.912,597] <info> calculations: Execution time (ms): 0
+[00:00:00.973,205] <info> calculations: Execution time (ms): 0
+[00:00:01.033,813] <info> calculations: Execution time (ms): 0
+[00:00:01.094,421] <info> calculations: Execution time (ms): 0
+[00:00:01.155,029] <info> calculations: Execution time (ms): 0
+[00:00:01.215,637] <info> calculations: Execution time (ms): 0
+[00:00:01.276,245] <info> calculations: Execution time (ms): 0
+[00:00:01.336,853] <info> calculations: Execution time (ms): 0
+[00:00:01.397,460] <info> calculations: Execution time (ms): 0
+[00:00:01.458,068] <info> calculations: Execution time (ms): 0
+[00:00:01.518,676] <info> calculations: Execution time (ms): 0
+[00:00:01.579,284] <info> calculations: Execution time (ms): 0
+[00:00:01.639,892] <info> calculations: Execution time (ms): 0
+[00:00:01.700,500] <info> calculations: Execution time (ms): 0
+[00:00:01.761,108] <info> calculations: Execution time (ms): 0
+[00:00:01.821,716] <info> calculations: Execution time (ms): 0
+[00:00:01.882,324] <info> calculations: Execution time (ms): 0
+[00:00:01.942,932] <info> calculations: Execution time (ms): 0
+[00:00:02.003,540] <info> calculations: Execution time (ms): 0
+[00:00:02.064,147] <info> calculations: Execution time (ms): 0
+[00:00:02.124,755] <info> calculations: Execution time (ms): 0
+[00:00:02.185,363] <info> calculations: Execution time (ms): 0
+[00:00:02.245,971] <info> calculations: Execution time (ms): 0
+[00:00:02.306,579] <info> calculations: Execution time (ms): 0
+[00:00:02.367,126] <info> calculations: Execution time (ms): 0
+[00:00:02.427,734] <info> calculations: Execution time (ms): 0
+[00:00:02.488,342] <info> calculations: Execution time (ms): 0
+[00:00:02.548,950] <info> calculations: Execution time (ms): 0
+[00:00:02.609,558] <info> calculations: Execution time (ms): 0
+[00:00:02.670,166] <info> calculations: Execution time (ms): 0
+[00:00:02.730,773] <info> calculations: Execution time (ms): 0
+[00:00:02.791,381] <info> calculations: Execution time (ms): 0
+[00:00:02.851,989] <info> calculations: Execution time (ms): 0
+[00:00:02.912,597] <info> calculations: Execution time (ms): 0
+[00:00:02.973,205] <info> calculations: Execution time (ms): 0
+[00:00:03.033,813] <info> calculations: Execution time (ms): 0
+[00:00:03.094,421] <info> calculations: Execution time (ms): 0
+[00:00:00.000,000] <info> app_timer: RTC: initialized.
+[00:00:00.048,278] <info> app: GAP addr type: Random static
+[00:00:00.048,645] <info> app: Our address: 55:2b:0b:05:b3:c9
+[00:00:00.049,011] <info> app: 1 peers stored in persistent flash
+[00:00:00.049,377] <info> app: Own role: BLE_GAP_ROLE_CENTRAL
+[00:00:00.049,743] <info> app: Peer address: 25:3a:97:d0:22:00
+[00:00:00.050,109] <info> app: Identity recovery key of peer: 0xdcd319d9d5c9a99ca27d42fb2473fa5b
+[00:00:00.050,720] <info> ble_ftms: ble_ftms::ble_ftms_init() successfully finished
+[00:00:00.051,208] <info> app: nRF CPS relay started.
+[00:00:00.051,513] <info> app: Fast advertising.
+[00:00:00.310,180] <info> app: Central connected
+[00:00:00.310,424] <info> app: Attempt to find peripheral services on conn_handle 0x0
+[00:00:00.359,313] <info> app: Cycling Speed and Cadence service discovered on conn_handle 0x0
+[00:00:00.359,863] <info> app: Setting of timer to initalize the trainer in 2000ms
+[00:00:00.360,290] <info> app: DB Discovery instance 0x20002FD0 available on conn handle: 0
+[00:00:00.360,839] <info> app: Found 1 services on conn_handle: 0
+[00:00:00.408,874] <info> peer_manager_handler: Connection secured: role: Central, conn_handle: 0, procedure: Pairing
+[00:00:00.413,879] <info> calculations: prev_cumulative_crank_revs=0 - Should never happen after start!
+[00:00:00.414,428] <info> calculations: prev_last_crank_event_time=0 - Very unlikely to happen!
+[00:00:00.427,124] <info> calculations: Execution time (ms): 0.000
+[00:00:00.481,628] <info> calculations: Execution time (ms): 0.000
+[00:00:00.541,687] <info> calculations: Execution time (ms): 0.000
+[00:00:00.602,294] <info> calculations: Execution time (ms): 0.000
+[00:00:00.662,902] <info> calculations: Execution time (ms): 0.000
+[00:00:00.723,510] <info> calculations: Execution time (ms): 0.000
+[00:00:00.784,118] <info> calculations: Execution time (ms): 0.000
+[00:00:00.844,665] <info> calculations: Execution time (ms): 0.000
+[00:00:00.905,273] <info> calculations: Execution time (ms): 0.000
+[00:00:00.965,881] <info> calculations: Execution time (ms): 0.000
+[00:00:01.026,489] <info> calculations: Execution time (ms): 0.000
+[00:00:01.087,097] <info> calculations: Execution time (ms): 0.000
+[00:00:01.147,705] <info> calculations: Execution time (ms): 0.000
+[00:00:01.208,312] <info> calculations: Execution time (ms): 0.000
+[00:00:01.268,920] <info> calculations: Execution time (ms): 0.000
+[00:00:01.329,528] <info> calculations: Execution time (ms): 0.000
+[00:00:01.390,136] <info> calculations: Execution time (ms): 0.000
+[00:00:01.450,744] <info> calculations: Execution time (ms): 0.000
+[00:00:01.511,352] <info> calculations: Execution time (ms): 0.000
+[00:00:01.571,960] <info> calculations: Execution time (ms): 0.000
+[00:00:01.632,568] <info> calculations: Execution time (ms): 0.000
+[00:00:01.693,176] <info> calculations: Execution time (ms): 0.000
+[00:00:01.753,784] <info> calculations: Execution time (ms): 0.000
+[00:00:01.814,392] <info> calculations: Execution time (ms): 0.000
+[00:00:01.875,000] <info> calculations: Execution time (ms): 0.000
+[00:00:01.935,607] <info> calculations: Execution time (ms): 0.000
+[00:00:01.996,215] <info> calculations: Execution time (ms): 0.000
+[00:00:02.056,823] <info> calculations: Execution time (ms): 0.000
+[00:00:02.117,431] <info> calculations: Execution time (ms): 0.000
+[00:00:02.178,039] <info> calculations: Execution time (ms): 0.000

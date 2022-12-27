@@ -1,0 +1,9 @@
+**/Output/
+*.hex
+*.emSession
+html/**
+# If a file is not excempted from commit, check if it is already versioned! .gitignore does not remove the file from commit just 
+# ensures it is not added in the first step!. Use 'git rm --cached <file>' to remove from version control.
+dfus/dfu_zwift_version*
+nrf_priv.pem
+
